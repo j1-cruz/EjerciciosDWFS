@@ -17,6 +17,7 @@ btnDescuento.addEventListener("click", () => {
     total = uni * cant
     descuento = total - (0.15 * total)
     
+    console.log("Verificar si le corresponde un descuento")
     if(mes === "Octubre"){
         console.log("Su compra es de $",total, "Como compro en Octubre se aplica un 15% de dscuento, quedando asi un total de $", descuento
         )

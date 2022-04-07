@@ -6,7 +6,7 @@ let numero:number
 
 comparar.addEventListener("click", () => {
     numero = Number(num.value)
-
+    console.log("Verificar si un numero es par o impar")
     if(numero % 2){
         console.log("El numero: ", numero, "es impar")
     } 

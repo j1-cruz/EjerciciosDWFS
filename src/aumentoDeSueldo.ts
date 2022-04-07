@@ -6,7 +6,7 @@ let su:number
 
 verificar.addEventListener("click", () => {
     su = Number(sueldo.value)
-
+    console.log("Calculo de aumento de sueldo")
     if(su > 0 && su <= 15000){
         console.log("Su aumento es del 20% ahora le corresponde cobrar", su + su*0.2)
     } 

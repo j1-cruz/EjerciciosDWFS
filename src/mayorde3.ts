@@ -14,6 +14,7 @@ enviar.addEventListener("click", () => {
     numero2 = Number(num2.value)
     numero3 = Number(num3.value)
 
+    console.log("Verificar cual es el mayor de los tres numeros")
     if(numero1 > numero2 && numero1 > numero3){
         console.log("El numero: ", numero1, "Es el mayor")
 
