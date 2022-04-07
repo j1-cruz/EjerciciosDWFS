@@ -20,7 +20,15 @@ enviar.addEventListener("click", () => {
     } else if(numero2 > numero1 && numero2 > numero3) {
         console.log("El numero: ", numero2, "Es el mayor")
         
-    } else {
+    } else if (numero3 > numero1 && numero3 > numero2){
         console.log("El numero: ", numero3, "Es el mayor")
+    } else if (numero1 === numero2 && numero1 && numero2 > numero3){
+        console.log("Primera y segunda fila son los mayores con el numero: ", numero1)
+    } else if (numero1 === numero3 && numero1 && numero3 > numero2){
+        console.log("Primera y tecer fila son los mayores con el numero: ", numero1)
+    } else if (numero2 === numero3 && numero2 && numero3 > numero1){
+        console.log("Segunda y tecer fila son los mayores con el numero: ", numero2)
+    } else if (numero1 === numero2 && numero3){
+        console.log("Los tres numeros son iguales: ", numero1)
     }
 })
